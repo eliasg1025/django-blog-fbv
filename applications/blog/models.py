@@ -12,7 +12,7 @@ class Categoria(models.Model):
         verbose_name_plural = 'Categorias'
 
     def __str__(self):
-        return self.name
+        return self.nombre
 
 
 class Autor(models.Model):
