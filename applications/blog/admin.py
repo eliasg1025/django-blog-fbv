@@ -29,3 +29,4 @@ class AutorAdmin(ImportExportModelAdmin, admin.ModelAdmin):
 # Register your models here.
 admin.site.register(Categoria)
 admin.site.register(Autor)
+admin.site.register(Post)
